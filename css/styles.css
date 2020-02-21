@@ -1,0 +1,245 @@
+*{
+	margin: 0 auto 0 auto;
+	text-align:left;
+}
+body{
+	margin:0;
+	padding:0;
+	text-align:left;
+	font-size:13px;
+	font-family:arial,helvetica, sens-serif;
+	background: #ECE9E6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+}
+
+#container{
+		width:1000px;
+}
+
+/*address and contacts start*/
+#address{
+	background-color:#616161;
+	position:top;
+}
+
+#address h2{
+	margin-left:5px;
+	float:left;
+	background-color:#616161;
+	padding:5px;
+	font-size:15px;
+	font-weight: 100;
+	font-family:Arial, sans-serifs;
+	color:#fff;
+}
+
+#address h3{
+	margin-right:5px;
+	float:right;
+	background-color:#616161;
+	padding:5px;
+	font-size:15px;
+	font-weight: 100;
+	font-family:Arial, sans-serifs;
+	color:#fff;
+}
+
+#address h3 span.pn{
+	color:#4CAF50;
+}
+/*address and contacts end*/
+
+/*name of the company and slogan starts*/
+#header h1{
+	font-family:Gill Sans, sans-serif;
+	font-weight:700;
+	margin-top:10px;
+	padding:12px;
+	font-size:29px;
+	color:#424242;
+}
+
+#header h1 span.blue-text{
+	color:#00BCD4;
+}
+
+#header h2{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#4CAF50;
+	font-weight:300;
+	float:right;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+/*name of the company and slogan ends*/
+
+/*navigation bar starts*/
+#menu{
+	display:block;
+	float:left;
+	clear:both;
+	width:1000px;
+	height:54px;
+	float:left;
+	clear:both;
+}
+ul {
+    list-style-type: none;
+    margin:2px;
+    padding:0;
+    overflow:hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+    background-color:#616161;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:block;
+    color:white;
+    text-align:center;
+    padding:9px 16px;
+    text-decoration:none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+/*navigation bar ends */
+
+/*slideshow starts*/
+#outerbox{
+	margin-top:1px;
+	width:1000px;
+	overflow:hidden;
+}
+
+#sliderbox{
+	position:relative;
+	width:4000px;
+	animation-name:prashant;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+}
+
+#sliderbox img{
+	float:left;
+}
+
+@keyframes prashant{
+	0%
+	{
+		left:0px;	
+	}
+	20%
+	{
+		left:0px;
+	}
+	25%{
+		left:-1000px;
+	}
+	45%{
+		left:-1000px;
+	}
+	50%{
+		left:-2000px;
+	}
+	70%{
+		left:-2000px;
+	}
+	75%{
+		left:-3000px;
+	}
+	95%{
+		left:-3000px;
+	}
+	100%{
+		left:-4000px;
+	}
+}
+/*slideshow ends*/
+
+/*list start*/
+#list_first_page{
+	border-radius:5px;
+	margin-top:28px;
+	width:250px;
+	background-color:#EEEEEE;
+	float:left;
+	padding:15px 20px 5px 10px;
+}
+
+#list_first_page ol{
+	list-style: none;
+	padding: 0px;
+	width:204px;
+}
+
+#list_first_page ol li{
+	list-style: square;
+	font-size:17px;
+	font-family:Arial, sans-serif;
+	color:#424242;
+	padding:15px 0 8px 0;
+}
+
+#list_first_page h3{
+	font-size:28px;
+	color:#616161;
+	padding-left:29px;
+	padding-right:29px;
+	margin-top:10px;
+}
+/*list ends*/
+
+/*paragraph start*/
+.about_this{
+	background-color:#424242;
+	color:#fff;
+	font-weight:500;
+	font-size:20px;
+	padding:3px;
+	font-family:Arial, sans-serif;
+	text-align:center;
+}
+
+ p{
+	width:600px;
+	margin-top:28px;
+	padding:20px;
+	background: #8e9eab; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-radius:10px;
+	font-size:17px;
+	color:#424242;
+	font-style:italic;
+	font-family:Gill Sans, sans-serif;
+	float:right;
+}
+/*paragraph ends*/
+
+#contact_form p{
+	padding:5px;
+	margin:0;
+	margin-left:80px;
+	background:transparent;
+	font-family:normal;
+	border-radius:0;
+	float:left;
+	width:290px
+}
+
+#contact_form p.name{
+	margin-top:40px;
+} 
+
+
